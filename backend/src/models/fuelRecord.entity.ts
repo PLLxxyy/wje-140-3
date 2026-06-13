@@ -11,4 +11,5 @@ export class FuelRecordEntity {
   @Column('float') mileage!: number;
   @Column() station!: string;
   @Column() paymentMethod!: string;
+  @Column() date!: string;
 }
